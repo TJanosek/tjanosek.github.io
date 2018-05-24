@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html {
-	background-color:midnightblue;
+	background-color:#00a9d4;
 }
 
 body {
@@ -10,38 +10,78 @@ body {
 }
 
 header h1#title {
-	background-color: steelblue;
-	color: gold;
+	background-color: white;
+	color: #00a9d4;
 	font-size:50px;
 	text-align: center;
 	line-height:60px;
+	
 }
 
 nav.menu a {
 	font-family:Futura,Arial,sans-serif;
 	font-size:1.5em;
-	background-color:midnightblue;
+	background-color:white;
 	line-height: 1.8em;
-	color:gold;
+	color:black;
+	border-top:2px solid #00a9d4;
+	border-bottom:2px solid #00a9d4;
+}
+
+nav.menu a:hover {
+	background-color:#00a9d4;
+	color:white;
+}
+
+section#leftCol {
+	line-height:1.2em;
+}
+
+section#rightCol {
+	background-color:white;
+	color:black;
 }
 
 section#rightCol > nav.supeMenu li {
-	background-color:midnightblue;
 	font-size:1.2em;
 	line-height: 1.5em;
 }
 
 section#rightCol a {
-	color:gold;
+
 }
 
 footer {
-	background-color:steelblue;
-	color:gold;
+	background-color:#00a9d4;
+	color:white;
 	text-decoration:none;
 }
 
 footer > nav.footNav a {
-	color:gold;
+	color:white;
 	line-height: 1.8em;
+}
+
+/*catalogue*/
+
+div.pageHeader {
+	border-left:10px solid gold;
+}
+
+div.wrapper a {
+	text-decoration:none;
+}
+
+section.comList {
+	
+}
+
+section.comList > div.wrapper > div.box {
+	/* for each grid cell */
+	
+}
+
+div.wrapper p {
+	color:black;
+	
 }
