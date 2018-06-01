@@ -1,7 +1,10 @@
 @charset "utf-8";
 
+/* colors: dc blues #009de0 #0099cc dc universe #275faa #336699 */
+/* Yellows #feea3f #ffff33 #fff200*/
+
 html {
-	background-color:#00a9d4;
+	background-color:#009de0;
 }
 
 body {
@@ -9,28 +12,37 @@ body {
 	font-family:Futura,Arial,sans-serif;
 }
 
-header h1#title {
-	background-color: white;
-	color: #00a9d4;
-	font-size:50px;
-	text-align: center;
-	line-height:60px;
+/* header {
+	background-color:black;
+} */
+a.logo {
+	background-color:#feea3f;
+	
+}
+
+div.logoArea {
 	
 }
 
 nav.menu a {
-	font-family:Futura,Arial,sans-serif;
+	font-family:Arial black,sans-serif;
 	font-size:1.5em;
 	background-color:white;
 	line-height: 1.8em;
 	color:black;
-	border-top:2px solid #00a9d4;
-	border-bottom:2px solid #00a9d4;
+	text-transform:uppercase;
+	border-top:2px solid #009de0;
+	/* border-bottom:2px solid #009de0; */
 }
 
 nav.menu a:hover {
-	background-color:#00a9d4;
+	background-color:#009de0;
 	color:white;
+}
+
+div.headWrapper {
+	border-bottom: 2px solid #009de0;
+
 }
 
 section#leftCol {
@@ -39,7 +51,7 @@ section#leftCol {
 
 section#rightCol {
 	background-color:white;
-	color:black;
+
 }
 
 section#rightCol > nav.supeMenu li {
@@ -48,40 +60,63 @@ section#rightCol > nav.supeMenu li {
 }
 
 section#rightCol a {
-
+	text-transform:none;	
+	color:black;
 }
 
 footer {
-	background-color:#00a9d4;
+	background-color:#009de0;
 	color:white;
 	text-decoration:none;
 }
 
-footer > nav.footNav a {
+nav.footNav a {
 	color:white;
 	line-height: 1.8em;
+	text-transform:uppercase;
+}
+
+footer p {
+	font-family:sans-serif;
+	font-size:.8em;
 }
 
 /*catalogue*/
 
 div.pageHeader {
-	border-left:10px solid gold;
+	border-left:10px solid #feea3f;
 }
 
-div.wrapper a {
+section.comList a {
 	text-decoration:none;
 }
 
-section.comList {
-	
+section.comList {	
+	margin-top: 10px;
 }
 
-section.comList > div.wrapper > div.box {
+section.comList > div.mainWrapper > div.box {
 	/* for each grid cell */
-	
 }
 
-div.wrapper p {
+div.pageHeader h1 {	
+   margin: 0;
+   font-size: 2rem;
+   font-weight: bold;
+   line-height: 1.2em;
+   word-wrap: break-word;
+	display: block;
+	text-transform:uppercase;
+}
+
+section.comList h2 {
+	font-size:1.6em;
+	padding:1.5em 2em 1em;
+	font-weight:bold;
+	text-transform:uppercase;
+	border-left:10px solid gold;
+}
+
+section.comList p {
 	color:black;
-	
 }

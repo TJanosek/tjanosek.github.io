@@ -2,7 +2,7 @@
 
 
 
-div.wrapper {
+div.mainWrapper, div.mini {
 	clear:both;
 	width: 90%;
 	margin-left: auto;
@@ -18,13 +18,13 @@ div.box {
 
 }
 
-div.wrapper > div img {
+div.mainWrapper > div img, div.mini > div img {
 	/* fill the cell */
 	width:100%;	
 	
 }
 
-div.wrapper p {
+div.mainWrapper p, div.mini p {
 	text-align:center;
 	text-transform:uppercase;
 	
