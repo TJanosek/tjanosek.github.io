@@ -76,6 +76,10 @@ nav.footNav a {
 	text-transform:uppercase;
 }
 
+nav.footNav a:hover {
+	color:darkgray;
+}
+
 footer p {
 	font-family:sans-serif;
 	font-size:.8em;
