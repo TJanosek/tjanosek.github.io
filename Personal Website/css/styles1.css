@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/* Use a dark blue/black and marble/vanilla color scheme for texts, boxes, and buttons. #070748 #00005a #121254 or #333333 #e5e5d8 #fffafa #fdf5e6 #faebd7 #fcf4e8 #e6ffff #f0f8ff */
+
+html {
+	background-image: url(../img/fog_structure.jpg);
+	background-repeat: no-repeat;
+   background-size:cover;
+	/* border image */
+	
+	font-family:Futura,Arial Black,sans serif;
+}
+
+body {
+	border-top: 1em solid #070748;
+}
+
+header {
+	width:32%;
+	position:absolute;
+	top:6%;
+	left:0;
+	background-color:#e5e5d8;
+	padding:.5em;
+	color:#070748;
+	border:1px solid #070748;
+   box-shadow: 5px 4px 8px 0 black, 0 6px 20px 0 black;
+}
+
+h1 {
+	text-align:right;
+	padding-right:4%;
+	font-size:3em;
+
+}
+
+div.pageNav h2 {
+	position:absolute;
+	top:6%;
+	right:0;
+	background-color:#e5e5d8;
+	color:#070748;
+	font-size:1.3em;
+	padding:1em 3em 1em 1em;
+	text-transform:uppercase;
+	box-shadow: 5px 4px 8px 0 black, 0 6px 20px 0 black;
+	border-bottom:10px solid #070748;
+}
+
+div.pageNav a {
+	display:block;
+	position:absolute;
+	top:22%;
+	right:0;
+	width:10%;
+	background-color:#e5e5d8;
+/* 	color:#070748;
+	font-size:1.3em; */
+	padding:.5em 1.5em .5em 1.2em;
+	text-transform:uppercase;
+	box-shadow: 5px 4px 8px 0 black, 0 6px 20px 0 black;
+	list-style-type:none;
+}
+
+div.pageNav > ul > li > a > img {
+	width:50%;
+}
+
+
+/* div.pageNav li:hover::before { */
+	/* content: url(img/dc_supes_logo.png); */
+/* } */
+
+a {
+	text-decoration:none;
+	color:#070748;
+}
+
+div.pageNav a:hover {
+	background-color:#009de0;
+	color:#070748;	
+}
+
+.footNav {
+	width:100%;
+	position:absolute;
+	bottom:0;
+	background-color:#070748;
+}
+
+div.footNav li {
+	list-style-type:none;
+	float:right;
+	padding:.5em 1em .5em 2em;
+	font-family:sans-serif;
+	color:#e5e5d8;
+}
+
+div.footNav a {
+	color: #e5e5d8;
+}
